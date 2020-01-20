@@ -80,6 +80,6 @@ test:
 #
 production:
   <<: *default
-  database: demo_production
+  database: postgresql-rugged-01400
   username: demo
   password: <%= ENV['DEMO_DATABASE_PASSWORD'] %>
